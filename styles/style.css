@@ -96,21 +96,32 @@ body {
 
 .top-blogs {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
-.blog-cards {
+
+/* .blog-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+} */
+.top .top-blogs .blog-cards {
+    width: 20%;
 }
-
+.top-blogs .blog-cards {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
 .blog-card {
-    Width: 321px;
+    Width: 300px;
     Height: 350px;
     border: 0.5px solid rgb(210, 209, 209);
     border-radius: 5px;
-    margin:10px -20px ;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding-bottom: 15px;
 }
 
 .blog-banner img {
@@ -129,6 +140,7 @@ body {
     font-size: 18px;
 }
 .blog-icon i{
+
     margin: 0px 20px;
     background-color: none;
 }
@@ -253,5 +265,73 @@ body {
 /* tablet responsive */
 
 @media only screen and (min-width:689px) and (max-width:992px) {
-    
+    .top-banner-section {
+        width: 734px;
+
+    }
+    .banner-image img {
+        width: 323px;
+        height: 340px;
+    }
+    .top-banner-article h2{
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .top-banner-article p {
+        margin: 10px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .button-banner a {
+        padding: 12px;
+    }
+    .top-blogs {
+        display: grid;
+        grid-template-columns: (1, 1fr);
+        justify-content: center;
+    }
+    .top-blogs .button-card {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        width: 650px;
+        height: 80px;
+    }
+    .button-card a {
+        width: 180px;
+        height: 60px;
+        border:0.5px solid rgb(217, 212, 212);
+    }
+    .blog-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blog-cards .hide{
+        display: none;
+    }
+    .only-show-tablet {
+        display: block;
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    .only-show-tablet a {
+        padding: 15px 50px;
+    }
+    .only-show-tablet a:hover {
+        background-color: #1c43a7;
+    }
+    /* .footer-items .short {
+        text-align: center;
+    } */
+    .footer-items {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: space-between;
+        line-height: 50px;
+    }
+    .item {
+        display: flex;
+        justify-content: center;
+    }
 }
