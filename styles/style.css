@@ -237,7 +237,6 @@ body {
         width: 335px;
         height: 388px;
     }
-    
     .footer-items {
         display: flex;
         flex-direction: column;
@@ -245,7 +244,7 @@ body {
         position: relative;
        }
     .footer-items .item {
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
 }
