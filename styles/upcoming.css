@@ -1,0 +1,131 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Lato&family=Poppins:wght@500;700&family=Roboto&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* header option start */
+.container {
+   
+}
+
+.top-banner-section {
+    background-color: #231732;
+    margin: 50px 100px;
+    border-radius: 30px;
+}
+.top-banner {
+    display: flex;
+}
+.top-banner-article {
+    color: white;
+    width: 50%;
+    padding: 50px 24px 90px 110px;
+}
+.top-banner-article h2 {
+    font-size: 60px;
+    line-height: 70px; 
+}
+
+.top-banner-article p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: -30px;
+}
+
+.banner-image {
+    width: 580px;
+    padding-right: 50px;
+}
+
+.banner-image img {
+    width: 100%;
+    height:auto;
+    margin-top: 33px;
+  }
+
+.button-banner a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color:  #DD0000;
+    padding: 16px 25px;
+    border-radius: 5px;
+}
+
+.button-banner:hover a{
+    background-color:#1c43a7;
+}
+.button-banner i{
+   margin-left: 10px;
+}
+ /* header option end */
+
+ /*  button card  start*/
+.button-card {
+    width: 400px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#231732;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.button-card a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 64px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+.button-card a:focus {
+    color: #FFFFFF;
+    background-color: #DD0000;
+    border: none;
+}
+/* button card end */
+.footer-option {
+    height: 444px;
+    background-color: #1c43a7;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.main-footer {
+    padding: 5% 15% 5% 15%;
+}
+.other-option h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.other-option hr {
+    color: gray;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ 
+.footer-icons {
+    display: flex;
+    justify-content: center;
+}
+.footer-icons a{
+    margin: 10px;
+    color: aliceblue;
+    margin-top: 30px;
+}
