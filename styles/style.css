@@ -12,6 +12,36 @@ body {
     background-color: #231732;
     margin: 50px 100px;
     border-radius: 30px;
+    /* animation-name: square;
+    animation-duration: 4s; */
+}
+/* animation */
+.top-banner-section:hover {
+    width: 90%;
+    margin-right: 20%;
+    margin-left: 5%;
+    border-radius: 0px;
+    animation-name: square;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+} 
+@keyframes square {
+    25% {
+        background-color: #640dd1;
+    }
+    40% {
+        background-color: #1c1b1e;
+    }
+    60% {
+        background-color: #024c10;
+    }
+    75% {
+        background-color: #c6062e;
+    }
+    100% {
+        background-color: #151416;
+    }
 }
 .top-banner {
     display: flex;
@@ -335,3 +365,20 @@ body {
         justify-content: center;
     }
 }
+
+/* 
+animation */
+
+/* @keyframes color {
+    25% {
+        background-color: red;
+    }
+    50% {
+        background-color: green; 
+
+        }
+        100% {
+            background-color: red;
+        }
+    
+} */
