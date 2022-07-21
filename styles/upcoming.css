@@ -162,3 +162,33 @@ body {
     color: aliceblue;
     margin-top: 30px;
 }
+
+/* animation start*/
+.top-banner-section:hover {
+    width: 90%;
+    margin-right: 20%;
+    margin-left: 5%;
+    border-radius: 5px;
+    animation-name: square;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+} 
+@keyframes square {
+    25% {
+        background-color: #640dd1;
+    }
+    40% {
+        background-color: #1c1b1e;
+    }
+    60% {
+        background-color: #024c10;
+    }
+    75% {
+        background-color: #c6062e;
+    }
+    100% {
+        background-color: #151416;
+    }
+}
+/* animation end */
